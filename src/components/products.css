@@ -1,0 +1,36 @@
+.productImg {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+.productsWrapper {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTCAPtQ8UtjXeKtDy7sbYdEueK-NCOyCwbsA&usqp=CAU); */
+  background-color: rgb(216, 219, 221);
+  background-size: cover;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  width: 350px;
+  height: 300px;
+  margin: 10px 10px;
+}
+.btn {
+  background-color: blueviolet;
+  width: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  border: none;
+  color: aliceblue;
+}
+.btn:hover {
+  background-color: rgb(203, 147, 255);
+  transition: 1s;
+  cursor: pointer;
+  color: black;
+}

@@ -1,0 +1,39 @@
+.navImg {
+  width: 80px;
+  height: 80px;
+}
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(59, 59, 245);
+}
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+.navRight {
+  display: flex;
+  gap: 20px;
+}
+.cartCounter {
+  margin-right: 20px;
+}
+.logoName {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: beige;
+  font-weight: 1000;
+  font-size: larger;
+}
+.navTop {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.navTop:hover {
+  border-radius: 20%;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  transition: 1s;
+}
