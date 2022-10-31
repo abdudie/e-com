@@ -5,11 +5,13 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="head">
-      <h2 className="heading">Welcome to E-Commerce Store</h2>
-      <section>
-        <h3 className="h3">Products</h3>
-        <Products />
-      </section>
+      <div className="jumbotron">
+        <h1 className=" text-light">Welcome to E-Commerce Store</h1>
+        <section>
+          <h2 className="text-center text-light">Products</h2>
+        </section>
+      </div>
+      <Products />
     </div>
   );
 };

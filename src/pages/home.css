@@ -1,12 +1,5 @@
-.head {
-  /* background-image: url(https://wallpaperaccess.com/full/1567665.png); */
-  background-color: rgb(131, 131, 131);
-}
-.heading {
-  margin: 0;
-  padding: 0;
-  color: antiquewhite;
-}
-.h3 {
-  color: antiquewhite;
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg?w=2000);
+  background-size: cover;
 }

@@ -33,21 +33,51 @@ const Products = () => {
     return <h2>Ooops...Something went Wrong!</h2>;
   }
   return (
-    <div className="productsWrapper">
-      {products.map((e) => {
-        return (
-          <>
-            <div className="card" key={e.id}>
-              <img className="productImg" src={e.image} alt=""></img>
-              <h4>{e.title}</h4>
-              <h3>{e.price} $</h3>
-              <button onClick={() => handleAdd(e)} className="btn">
-                <i>Add to Cart</i>
-              </button>
-            </div>
-          </>
-        );
-      })}
+    <div className="container bg-white">
+      <div className="row">
+        {products.map((e) => {
+          return (
+            <>
+              <div className="col-lg-4 col-md-4 col-sm-4 col-6">
+                <div
+                  className="card mb-4"
+                  key={e.id}
+                  // style={{ height: "60vh" }}
+                >
+                  <img
+                    className="card-img rounded-circle"
+                    src={e.image}
+                    alt="img"
+                    style={{ height: "18vw", width: "20vw" }}
+                  ></img>
+                  <div className="card-body">
+                    <h6
+                      className="card-title text-dark"
+                      // style={{ fontSize: "1.5vw" }}
+                    >
+                      {e.title}
+                    </h6>
+                    <h3
+                      className="card-text text-success"
+                      // style={{ fontSize: "3vw" }}
+                    >
+                      {e.price} $
+                    </h3>
+
+                    <button
+                      onClick={() => handleAdd(e)}
+                      className="btn btn-secondary"
+                      // style={{ width: "10vw", fontSize: "1vw" }}
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </>
+          );
+        })}
+      </div>
     </div>
   );
 };

@@ -1,25 +1,6 @@
-.cartWrapper {
-  width: 90%;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.card1 {
+  width: 100%;
 }
-.cartImage {
-  width: 90px;
-  height: 90px;
-  margin-left: 20px;
-}
-.cartCard {
-  height: 130px;
-  border-radius: 5%;
-  /* border: 2px solid black; */
-  background-color: rgb(130, 221, 221);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.btn {
-  margin-right: 10px;
-  border-radius: 10%;
+.cart-wrapper {
+  box-shadow: none;
 }

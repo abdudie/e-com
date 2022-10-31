@@ -1,36 +1,15 @@
-.productImg {
-  margin-top: 10px;
-  width: 100px;
-  height: 100px;
-}
-.productsWrapper {
-  gap: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTCAPtQ8UtjXeKtDy7sbYdEueK-NCOyCwbsA&usqp=CAU); */
-  background-color: rgb(216, 219, 221);
-  background-size: cover;
+.card:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .card {
-  background-color: rgb(255, 255, 255);
-  border-radius: 5%;
-  width: 350px;
-  height: 300px;
-  margin: 10px 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  align-items: center;
 }
-.btn {
-  background-color: blueviolet;
-  width: 150px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: 500;
-  border: none;
-  color: aliceblue;
-}
-.btn:hover {
-  background-color: rgb(203, 147, 255);
-  transition: 1s;
-  cursor: pointer;
-  color: black;
+.card-img {
+  margin-top: 20px;
 }
